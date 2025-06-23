@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="#f0f9ff" stroke="#7dd3fc" stroke-width="2"/>
+  
+  <!-- Water drop shape -->
+  <path d="M200 80 C160 120, 160 160, 200 200 C240 160, 240 120, 200 80 Z" fill="#0ea5e9"/>
+  
+  <!-- WS text -->
+  <text x="200" y="140" font-family="Arial, sans-serif" font-size="48" font-weight="bold" text-anchor="middle" fill="white">WS</text>
+  
+  <!-- Company name -->
+  <text x="200" y="280" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#1e40af">WONDERS SOLUTION</text>
+  
+  <!-- Tagline -->
+  <text x="200" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#64748b">"Say Goodbye to Harsh Water"</text>
+</svg>
