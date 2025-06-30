@@ -2125,6 +2125,56 @@ p {
   font-size: 0.9rem;
 }
 
+.company-cta {
+  margin-top: 4rem;
+  padding: 3rem;
+  background: var(--bg-blue-gradient);
+  border-radius: 20px;
+  text-align: center;
+  color: var(--text-white);
+}
+
+.company-cta h3 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: var(--text-white);
+}
+
+.company-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.company-cta .cta-buttons {
+  display: flex;
+  gap: 1.5rem;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.company-cta .btn-primary {
+  background: rgba(255, 255, 255, 0.2);
+  color: var(--text-white);
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.company-cta .btn-primary:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+.company-cta .btn-secondary {
+  background: transparent;
+  color: var(--text-white);
+  border: 2px solid rgba(255, 255, 255, 0.5);
+}
+
+.company-cta .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+}
+
 /* Mobile Company Info Styles */
 @media (max-width: 768px) {
   .company-stats {
@@ -2942,5 +2992,20 @@ a:focus {
 
   .header-contact {
     flex-shrink: 0;
+  }
+
+  .company-cta {
+    margin-top: 2rem;
+    padding: 2rem 1rem;
+  }
+
+  .company-cta h3 {
+    font-size: 1.5rem;
+  }
+
+  .company-cta .cta-buttons {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
   }
 }

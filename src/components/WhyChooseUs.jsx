@@ -1,5 +1,6 @@
 import React from 'react'
 import { Shield, Award, Users, Wrench, Star, CheckCircle, ArrowRight } from 'lucide-react'
+import { handleGeneralInquiry } from '../utils/whatsapp'
 
 const WhyChooseUs = () => {
   const benefits = [
@@ -63,11 +64,8 @@ const WhyChooseUs = () => {
     }
   }
 
-  const scrollToContact = () => {
-    const element = document.getElementById('contact')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
+  const handleQuoteRequest = () => {
+    handleGeneralInquiry('quote')
   }
 
   return (
@@ -122,7 +120,7 @@ const WhyChooseUs = () => {
                 View Our Products
                 <ArrowRight size={20} />
               </button>
-              <button className="btn-secondary" onClick={scrollToContact}>
+              <button className="btn-secondary" onClick={handleQuoteRequest}>
                 Get Your Quote Today
               </button>
             </div>

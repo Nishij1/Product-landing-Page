@@ -1,5 +1,6 @@
 import React from 'react'
 import { Star, Quote } from 'lucide-react'
+import { handleGeneralInquiry } from '../utils/whatsapp'
 
 const Testimonials = () => {
   const testimonials = [
@@ -128,9 +129,9 @@ const Testimonials = () => {
         <div className="testimonials-cta">
           <h3>Ready to Join Our Happy Customers?</h3>
           <p>Experience the difference of pure, soft water in your home</p>
-          <button 
+          <button
             className="btn-primary"
-            onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+            onClick={() => handleGeneralInquiry('quote')}
           >
             Get Your Quote Today
           </button>

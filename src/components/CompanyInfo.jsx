@@ -1,5 +1,6 @@
 import React from 'react'
-import { Award, Users, Shield, Wrench, Droplets, Heart } from 'lucide-react'
+import { Award, Users, Shield, Wrench, Droplets, Heart, MessageCircle } from 'lucide-react'
+import { handleGeneralInquiry } from '../utils/whatsapp'
 
 const CompanyInfo = () => {
   const stats = [
@@ -190,6 +191,28 @@ const CompanyInfo = () => {
                 <Wrench size={32} />
                 <h4>Service Excellence</h4>
                 <p>Award for customer satisfaction</p>
+              </div>
+            </div>
+          </div>
+
+          <div className="company-cta">
+            <div className="cta-content">
+              <h3>Ready to Experience Pure Water?</h3>
+              <p>Join thousands of satisfied customers who trust Wonders Solution for their water softening needs</p>
+              <div className="cta-buttons">
+                <button
+                  className="btn-primary"
+                  onClick={() => handleGeneralInquiry('consultation')}
+                >
+                  <MessageCircle size={20} />
+                  Get Expert Consultation
+                </button>
+                <button
+                  className="btn-secondary"
+                  onClick={() => document.getElementById('products').scrollIntoView({ behavior: 'smooth' })}
+                >
+                  View Our Products
+                </button>
               </div>
             </div>
           </div>

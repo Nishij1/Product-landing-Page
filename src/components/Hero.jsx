@@ -1,5 +1,6 @@
 import React from 'react'
 import { ArrowRight, Droplets } from 'lucide-react'
+import { handleGeneralInquiry } from '../utils/whatsapp'
 
 const Hero = () => {
   const scrollToProducts = () => {
@@ -9,11 +10,8 @@ const Hero = () => {
     }
   }
 
-  const scrollToContact = () => {
-    const element = document.getElementById('contact')
-    if (element) {
-      element.scrollIntoView({ behavior: 'smooth' })
-    }
+  const handleQuoteRequest = () => {
+    handleGeneralInquiry('quote')
   }
 
   return (
@@ -38,7 +36,7 @@ const Hero = () => {
                 Shop Water Softeners
                 <ArrowRight size={20} />
               </button>
-              <button className="btn-secondary" onClick={scrollToContact}>
+              <button className="btn-secondary" onClick={handleQuoteRequest}>
                 Get Quote Now
               </button>
             </div>

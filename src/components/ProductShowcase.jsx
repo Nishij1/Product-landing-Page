@@ -177,7 +177,7 @@ const ProductShowcase = () => {
             <div className="cta-buttons">
               <button
                 className="btn-secondary"
-                onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
+                onClick={() => handleGeneralInquiry('consultation')}
               >
                 Get Expert Advice
               </button>
