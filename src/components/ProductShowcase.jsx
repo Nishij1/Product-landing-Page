@@ -173,21 +173,21 @@ const ProductShowcase = () => {
         <div className="products-cta">
           <div className="cta-content">
             <h3>Not sure which system is perfect for your home?</h3>
-            <p>Get a FREE water quality test and personalized recommendation from our experts</p>
+            <p>Contact our experts for personalized recommendations and competitive pricing</p>
             <div className="cta-buttons">
               <button
                 className="btn-secondary"
                 onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}
               >
-                Schedule Water Test
+                Get Expert Advice
               </button>
 
               <button
                 className="btn-whatsapp-cta"
-                onClick={() => handleGeneralInquiry('waterTest')}
+                onClick={() => handleGeneralInquiry('quote')}
               >
                 <MessageCircle size={20} />
-                WhatsApp for Water Test
+                WhatsApp for Quote
               </button>
             </div>
           </div>

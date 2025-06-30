@@ -98,40 +98,40 @@ const ContactForm = () => {
     <section id="contact" className="contact-form">
       <div className="container">
         <div className="section-header">
-          <h2>Get Your Water Quality Test</h2>
-          <p>Discover what's in your water and get a personalized solution recommendation</p>
+          <h2>Contact Us for Water Solutions</h2>
+          <p>Get in touch with our experts to find the perfect water softener for your home</p>
         </div>
 
         <div className="contact-content">
           <div className="contact-info">
-            <h3>Why Choose Our Water Test?</h3>
+            <h3>Why Choose Wonders Solution?</h3>
             <div className="benefits-list">
               <div className="benefit">
                 <CheckCircle size={20} />
                 <div>
-                  <h4>Professional Analysis</h4>
-                  <p>Comprehensive testing of 15+ water quality parameters</p>
+                  <h4>Premium Quality Systems</h4>
+                  <p>ISI certified water softeners with proven performance</p>
                 </div>
               </div>
               <div className="benefit">
                 <CheckCircle size={20} />
                 <div>
-                  <h4>Expert Recommendations</h4>
-                  <p>Personalized solution based on your specific water issues</p>
+                  <h4>Expert Installation</h4>
+                  <p>Professional installation by certified technicians</p>
                 </div>
               </div>
               <div className="benefit">
                 <CheckCircle size={20} />
                 <div>
-                  <h4>No Obligation Quote</h4>
-                  <p>Transparent pricing with no hidden costs or pressure</p>
+                  <h4>Transparent Pricing</h4>
+                  <p>Clear pricing with no hidden costs or surprises</p>
                 </div>
               </div>
               <div className="benefit">
                 <CheckCircle size={20} />
                 <div>
-                  <h4>Same Day Service</h4>
-                  <p>Quick response and flexible scheduling options</p>
+                  <h4>Reliable Support</h4>
+                  <p>Ongoing customer support and maintenance services</p>
                 </div>
               </div>
             </div>
@@ -174,7 +174,7 @@ const ContactForm = () => {
 
           <div className="form-container">
             <form onSubmit={handleSubmit(onSubmit)} className="contact-form-fields">
-              <h3>Schedule Your FREE Water Quality Test</h3>
+              <h3>Get Your Water Softener Quote</h3>
               
               <div className="form-group">
                 <label htmlFor="name">Full Name *</label>

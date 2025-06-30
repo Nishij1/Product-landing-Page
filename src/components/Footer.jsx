@@ -10,17 +10,17 @@ const Footer = () => {
     { name: "Home", href: "#home" },
     { name: "Products", href: "#products" },
     { name: "Testimonials", href: "#testimonials" },
-    { name: "Special Offers", href: "#offers" },
+    { name: "Company Info", href: "#company" },
     { name: "Contact", href: "#contact" }
   ]
 
   const services = [
     "Water Softener Installation",
-    "Water Quality Testing",
     "System Maintenance",
     "Emergency Repairs",
     "Water Purifier Services",
-    "Consultation Services"
+    "Consultation Services",
+    "Technical Support"
   ]
 
   const serviceAreas = [

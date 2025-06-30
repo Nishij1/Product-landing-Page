@@ -4,7 +4,7 @@ import Header from './components/Header'
 import Hero from './components/Hero'
 import ProductShowcase from './components/ProductShowcase'
 import Testimonials from './components/Testimonials'
-import SpecialOffers from './components/SpecialOffers'
+import WhyChooseUs from './components/WhyChooseUs'
 import ContactForm from './components/ContactForm'
 import CompanyInfo from './components/CompanyInfo'
 import Footer from './components/Footer'
@@ -16,7 +16,7 @@ function App() {
       <Hero />
       <ProductShowcase />
       <Testimonials />
-      <SpecialOffers />
+      <WhyChooseUs />
       <ContactForm />
       <CompanyInfo />
       <Footer />

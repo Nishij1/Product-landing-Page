@@ -46,10 +46,10 @@ export const generateGeneralInquiryMessage = (inquiryType = "general", customerN
 I found your website and I'm interested in water softener solutions for my home.
 
 Could you please help me with:
-✅ Free water quality test
 ✅ Product recommendations based on my needs
 ✅ Pricing and installation details
-✅ Current offers and discounts
+✅ System specifications and features
+✅ Warranty and support information
 
 I would appreciate a consultation at my convenience.
 
@@ -57,13 +57,13 @@ Thank you!`,
 
     waterTest: `${greeting}
 
-I would like to schedule a FREE water quality test for my home.
+I would like to get information about water softener systems for my home.
 
 Please let me know:
-✅ Available time slots
-✅ What the test includes
-✅ How long it takes
-✅ Next steps after the test
+✅ Available product options
+✅ Pricing and installation costs
+✅ System recommendations for my needs
+✅ Next steps to proceed
 
 Looking forward to hearing from you!
 

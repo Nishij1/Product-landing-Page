@@ -1,5 +1,5 @@
 import React from 'react'
-import { ArrowRight, CheckCircle, Droplets } from 'lucide-react'
+import { ArrowRight, Droplets } from 'lucide-react'
 
 const Hero = () => {
   const scrollToProducts = () => {
@@ -31,25 +31,6 @@ const Hero = () => {
               mineral-free water that protects your family's health and saves thousands
               in maintenance costs.
             </p>
-            
-            <div className="hero-benefits">
-              <div className="benefit">
-                <CheckCircle className="benefit-icon" />
-                <span>Softer skin & silky hair</span>
-              </div>
-              <div className="benefit">
-                <CheckCircle className="benefit-icon" />
-                <span>Longer appliance lifespan</span>
-              </div>
-              <div className="benefit">
-                <CheckCircle className="benefit-icon" />
-                <span>Reduced soap & detergent usage</span>
-              </div>
-              <div className="benefit">
-                <CheckCircle className="benefit-icon" />
-                <span>No more white chalky deposits</span>
-              </div>
-            </div>
 
             <div className="hero-cta">
               <button className="btn-primary" onClick={scrollToProducts}>
@@ -58,14 +39,13 @@ const Hero = () => {
                 <ArrowRight size={20} />
               </button>
               <button className="btn-secondary" onClick={scrollToContact}>
-                Get Free Water Test
+                Get Quote Now
               </button>
             </div>
 
             <div className="hero-urgency">
               <p className="urgency-text">
-                🔥 <strong>SPECIAL OFFER:</strong> Free installation + Extended warranty on all systems - Limited time only!
-              </p>
+                🔥 <strong>PREMIUM QUALITY:</strong> ISI certified systems with professional installation and extended warranty!</p>
             </div>
           </div>
 
