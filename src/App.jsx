@@ -5,7 +5,7 @@ import Hero from './components/Hero'
 import ProductShowcase from './components/ProductShowcase'
 import Testimonials from './components/Testimonials'
 import WhyChooseUs from './components/WhyChooseUs'
-import ContactForm from './components/ContactForm'
+
 import CompanyInfo from './components/CompanyInfo'
 import Footer from './components/Footer'
 
@@ -17,7 +17,6 @@ function App() {
       <ProductShowcase />
       <Testimonials />
       <WhyChooseUs />
-      <ContactForm />
       <CompanyInfo />
       <Footer />
     </div>

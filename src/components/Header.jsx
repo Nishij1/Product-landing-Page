@@ -23,7 +23,7 @@ const Header = () => {
     { name: 'Products', section: 'products', icon: Package },
     { name: 'Reviews', section: 'testimonials', icon: Star },
     { name: 'Why Us', section: 'why-choose-us', icon: Gift },
-    { name: 'Contact', section: 'contact', icon: Users }
+    { name: 'About', section: 'company-info', icon: Users }
   ]
 
   const handleNavItemClick = (item) => {
@@ -33,7 +33,7 @@ const Header = () => {
   // Track active section based on scroll position
   useEffect(() => {
     const handleScroll = () => {
-      const sections = ['home', 'products', 'testimonials', 'why-choose-us', 'contact']
+      const sections = ['home', 'products', 'testimonials', 'why-choose-us', 'company-info']
       const scrollPosition = window.scrollY + 100
 
       for (const section of sections) {
@@ -84,7 +84,7 @@ const Header = () => {
               <li><a href="#products" onClick={() => scrollToSection('products')}><Package size={16} />Products</a></li>
               <li><a href="#testimonials" onClick={() => scrollToSection('testimonials')}><Star size={16} />Reviews</a></li>
               <li><a href="#why-choose-us" onClick={() => scrollToSection('why-choose-us')}><Gift size={16} />Why Choose Us</a></li>
-              <li><a href="#contact" onClick={() => scrollToSection('contact')}><Users size={16} />Contact</a></li>
+              <li><a href="#company-info" onClick={() => scrollToSection('company-info')}><Users size={16} />About</a></li>
             </ul>
           </nav>
 

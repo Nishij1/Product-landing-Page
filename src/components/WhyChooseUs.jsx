@@ -15,12 +15,12 @@ const WhyChooseUs = () => {
     },
     {
       icon: Award,
-      title: "Expert Installation Service",
-      description: "Professional installation by certified technicians with years of experience",
+      title: "Expert Product Support",
+      description: "Comprehensive guidance and support for optimal system performance",
       features: [
-        "Certified technician installation",
-        "Complete system setup",
-        "Performance testing included"
+        "Detailed setup instructions",
+        "Technical support hotline",
+        "Performance optimization tips"
       ]
     },
     {

@@ -47,7 +47,7 @@ I found your website and I'm interested in water softener solutions for my home.
 
 Could you please help me with:
 ✅ Product recommendations based on my needs
-✅ Pricing and installation details
+✅ Pricing and product details
 ✅ System specifications and features
 ✅ Warranty and support information
 
@@ -55,13 +55,13 @@ I would appreciate a consultation at my convenience.
 
 Thank you!`,
 
-    waterTest: `${greeting}
+    consultation: `${greeting}
 
 I would like to get information about water softener systems for my home.
 
 Please let me know:
 ✅ Available product options
-✅ Pricing and installation costs
+✅ Pricing and product costs
 ✅ System recommendations for my needs
 ✅ Next steps to proceed
 
@@ -84,13 +84,13 @@ Thank you!`,
 
     quote: `${greeting}
 
-I would like to get a quote for water softener installation.
+I would like to get a quote for water softener systems.
 
 My requirements:
 ✅ Family size: [Please specify]
 ✅ Home type: [Apartment/House]
 ✅ Current water issues: [Hard water/scaling/etc.]
-✅ Preferred installation date: [Your preference]
+✅ Preferred delivery timeframe: [Your preference]
 
 Please provide a detailed quote with all costs included.
 

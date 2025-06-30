@@ -15,17 +15,12 @@ const Footer = () => {
   ]
 
   const services = [
-    "Water Softener Installation",
-    "System Maintenance",
-    "Emergency Repairs",
-    "Water Purifier Services",
-    "Consultation Services",
-    "Technical Support"
+    "Water Softener Sales",
+
   ]
 
   const serviceAreas = [
-    "Mumbai", "Delhi NCR", "Bangalore", "Pune", "Hyderabad",
-    "Chennai", "Kolkata", "Ahmedabad", "Jaipur", "Lucknow"
+   
   ]
 
   const scrollToSection = (sectionId) => {

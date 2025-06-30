@@ -25,7 +25,7 @@ The contact form is now integrated with EmailJS to send form submissions directl
 3. Use this template content:
 
 ```
-Subject: Water Test Request - {{from_name}}
+Subject: Water Softener Consultation Request - {{from_name}}
 
 From: {{from_name}} <{{from_email}}>
 Phone: {{phone}}
@@ -49,13 +49,13 @@ Reply to: {{reply_to}}
 2. Use this template content:
 
 ```
-Subject: Thank you for your Water Test Request!
+Subject: Thank you for your Water Softener Consultation Request!
 
 Dear {{to_name}},
 
-Thank you for requesting a water quality test from Wonders Solution!
+Thank you for your interest in Wonders Solution water softener systems!
 
-We have received your request and our expert will contact you within 2 hours to schedule your FREE water test.
+We have received your request and our expert will contact you within 2 hours to discuss your requirements and provide a personalized quote.
 
 Your Request Details:
 - Name: {{to_name}}
@@ -63,8 +63,8 @@ Your Request Details:
 - Main Concern: (from your submission)
 
 What happens next?
-1. Our water quality expert will call you within 2 hours
-2. We'll schedule a convenient time for your FREE water test
+1. Our water softener expert will call you within 2 hours
+2. We'll discuss your specific water quality needs
 3. Get personalized recommendations and transparent pricing
 
 For immediate assistance, you can also reach us at:
@@ -114,14 +114,14 @@ const EMAILJS_PUBLIC_KEY = 'your_public_key_here'
 1. In Gmail, go to **Settings** → **Filters and Blocked Addresses**
 2. Create a filter for emails from EmailJS:
    - **From**: contains `emailjs`
-   - **Subject**: contains `Water Test Request`
-3. Apply label: `🚰 Water Test Requests`
+   - **Subject**: contains `Water Softener Consultation`
+3. Apply label: `🚰 Water Softener Requests`
 4. Mark as important
 5. Forward to your phone (optional)
 
 ### Mobile Notifications:
 1. Install Gmail app on your phone
-2. Enable notifications for the `Water Test Requests` label
+2. Enable notifications for the `Water Softener Requests` label
 3. Get instant alerts for new customer inquiries
 
 ## 🔧 Testing the Setup
@@ -143,9 +143,9 @@ const EMAILJS_PUBLIC_KEY = 'your_public_key_here'
 ## 📊 Managing Form Submissions
 
 ### Daily Workflow:
-1. **Morning**: Check Gmail for new water test requests
+1. **Morning**: Check Gmail for new consultation requests
 2. **Response**: Call customers within 2 hours as promised
-3. **Follow-up**: Schedule water tests and send confirmations
+3. **Follow-up**: Provide quotes and product recommendations
 4. **Evening**: Review day's inquiries and plan next day
 
 ### Email Organization:

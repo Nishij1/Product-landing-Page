@@ -45,7 +45,7 @@ const Hero = () => {
 
             <div className="hero-urgency">
               <p className="urgency-text">
-                🔥 <strong>PREMIUM QUALITY:</strong> ISI certified systems with professional installation and extended warranty!</p>
+                🔥 <strong>PREMIUM QUALITY:</strong> ISI certified systems with extended warranty and expert support!</p>
             </div>
           </div>
 

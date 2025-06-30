@@ -19,7 +19,7 @@ const ProductShowcase = () => {
         "Automatic regeneration system",
         "Digital control panel with LED display",
         "3-year comprehensive warranty",
-        "Free professional installation included"
+        "Expert installation support available"
       ],
       benefits: [
         "Ideal for 4-8 member families",
@@ -162,7 +162,7 @@ const ProductShowcase = () => {
 
                 <div className="product-guarantee">
                   <p>✅ 30-day satisfaction guarantee</p>
-                  <p>✅ Free professional installation</p>
+                  <p>✅ Expert installation support</p>
                   <p>✅ 24/7 expert customer support</p>
                 </div>
               </div>

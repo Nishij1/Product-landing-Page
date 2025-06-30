@@ -7,7 +7,7 @@ A modern, production-ready React + Vite web application for premium water soften
 ## 🚀 Project Overview
 Wonders Solution is a customer-centric platform offering:
 - Product showcase for water softeners
-- Free water quality test scheduling
+- Expert consultation and quotes
 - WhatsApp and EmailJS integration for instant support
 - Real customer testimonials and special offers
 - 24/7 emergency water service
@@ -61,7 +61,7 @@ src/
 
 ## 📝 Usage
 - Visit the homepage to explore products and offers
-- Schedule a free water test via the contact form
+- Get expert consultation via the contact form
 - Use WhatsApp buttons for instant support or inquiries
 - Check testimonials and special deals
 

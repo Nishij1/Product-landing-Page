@@ -26,7 +26,7 @@ const Testimonials = () => {
       name: "Anita Patel",
       location: "Ahmedabad, Gujarat",
       rating: 5,
-      text: "The installation team was professional and the system works perfectly. We're saving so much on soap and detergent now. My children's skin problems have improved significantly!",
+      text: "The system setup was straightforward and it works perfectly. We're saving so much on soap and detergent now. My children's skin problems have improved significantly!",
       product: "AquaSoft Pro 3000",
       timeAgo: "3 weeks ago"
     },

@@ -62,7 +62,7 @@ This guide explains how to replace the placeholder images with your actual compa
 ✅ **Header Navigation:** WhatsApp button for general inquiries
 ✅ **Product Cards:** Individual "Buy Now" buttons redirect to WhatsApp with product-specific messages
 ✅ **Product Cards:** Quick inquiry buttons for each product
-✅ **Product Section:** WhatsApp button for water test scheduling
+✅ **Product Section:** WhatsApp button for consultation scheduling
 ✅ **Footer:** Emergency WhatsApp support button
 ✅ **Mobile Responsive:** All WhatsApp buttons work on mobile and desktop
 
@@ -79,7 +79,7 @@ The system automatically generates contextual messages including:
 
 ### Message Types
 1. **Product Inquiry:** When clicking "Buy Now" or product-specific buttons
-2. **Water Test:** When requesting free water quality test
+2. **Consultation:** When requesting product consultation
 3. **General Inquiry:** For general questions and consultations
 4. **Emergency Support:** For urgent technical issues
 
