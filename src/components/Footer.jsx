@@ -48,17 +48,11 @@ const Footer = () => {
               and extended appliance life. Your family's health is our priority.
             </p>
             <div className="social-links">
-              <a href="#" aria-label="Facebook">
+              <a href="https://www.facebook.com/wonderssolution/" aria-label="Facebook">
                 <Facebook size={20} />
               </a>
-              <a href="#" aria-label="Instagram">
+              <a href="https://www.instagram.com/wonders_solution_ngp/" aria-label="Instagram">
                 <Instagram size={20} />
-              </a>
-              <a href="#" aria-label="Twitter">
-                <Twitter size={20} />
-              </a>
-              <a href="#" aria-label="YouTube">
-                <Youtube size={20} />
               </a>
             </div>
           </div>
