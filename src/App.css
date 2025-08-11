@@ -597,7 +597,7 @@ p {
 
   /* Ensure proper spacing for mobile header */
   .hero {
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
 
   /* Fix header positioning on mobile */
@@ -1553,7 +1553,6 @@ p {
 
 .urgency-text {
   color: #ff0000;
-  margin-bottom: 2rem;
   font-size: 1.1rem;
   line-height: 1.6;
 }
