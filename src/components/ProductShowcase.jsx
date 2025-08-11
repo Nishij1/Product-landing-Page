@@ -1,8 +1,8 @@
 import React from 'react'
 import { Star, ShoppingCart, Award, Shield, Zap, MessageCircle } from 'lucide-react'
 import { handleProductBuyNow, handleGeneralInquiry } from '../utils/whatsapp'
-import aquasoftPro3000 from '/src/assets/p1.png'
-import aquasoftElite5000 from '/src/assets/p2.png'
+import aquasoftPro3000 from '/src/assets/p2.png'
+import aquasoftElite5000 from '/src/assets/p1.png'
 
 const ProductShowcase = () => {
   const products = [
