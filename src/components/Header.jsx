@@ -65,7 +65,7 @@ const Header = () => {
                 <Droplets size={20} className="logo-droplet" />
                 Wonders Solution
               </h1>
-              <p>"Say Goodbye to Harsh Water"</p>
+             
             </div>
           </div>
 

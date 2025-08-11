@@ -123,23 +123,23 @@ const ProductShowcase = () => {
                   </span>
                 </div>
 
-                <div className="product-features">
+                {/* <div className="product-features">
                   <h4>Key Features:</h4>
                   <ul>
                     {product.features.map((feature, index) => (
                       <li key={index}>{feature}</li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
 
-                <div className="product-benefits">
+                {/* <div className="product-benefits">
                   <h4>Benefits:</h4>
                   <ul>
                     {product.benefits.map((benefit, index) => (
                       <li key={index}>{benefit}</li>
                     ))}
                   </ul>
-                </div>
+                </div> */}
 
                 <div className="product-actions">
                   <button

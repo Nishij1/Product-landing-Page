@@ -169,32 +169,7 @@ const CompanyInfo = () => {
             </div>
           </div>
 
-          <div className="certifications">
-            <h3>Our Certifications & Partnerships</h3>
-            <div className="cert-grid">
-              <div className="cert-item">
-                <Award size={32} />
-                <h4>ISI Certified</h4>
-                <p>Bureau of Indian Standards approved</p>
-              </div>
-              <div className="cert-item">
-                <Shield size={32} />
-                <h4>ISO 9001:2015</h4>
-                <p>Quality management certified</p>
-              </div>
-              <div className="cert-item">
-                <Users size={32} />
-                <h4>Authorized Dealer</h4>
-                <p>Official partner of leading brands</p>
-              </div>
-              <div className="cert-item">
-                <Wrench size={32} />
-                <h4>Service Excellence</h4>
-                <p>Award for customer satisfaction</p>
-              </div>
-            </div>
-          </div>
-
+          
           <div className="company-cta">
             <div className="cta-content">
               <h3>Ready to Experience Pure Water?</h3>

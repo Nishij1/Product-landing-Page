@@ -39,7 +39,7 @@ const Footer = () => {
               <img src={logo} alt="Wonders Solution" />
               <div>
                 <h3>Wonders Solution</h3>
-                <p>"Say Goodbye to Harsh Water"</p>
+          
               </div>
             </div>
             <p className="company-description">

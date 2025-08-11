@@ -676,7 +676,7 @@ p {
 }
 
 .hero-urgency {
-  background: linear-gradient(135deg, rgb(0, 255, 98), rgb(0, 255, 64));
+  background: linear-gradient(135deg, #f8fafc, #bfdbfe);
   padding: 1.5rem 2rem;
   border-radius: 15px;
   border: 1px solid rgba(255, 255, 255, 0.3);

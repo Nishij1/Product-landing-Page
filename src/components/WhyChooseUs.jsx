@@ -138,7 +138,7 @@ const WhyChooseUs = () => {
               <p>Cities Served</p>
             </div>
             <div className="stat">
-              <h4>5 Years</h4>
+              <h4>3 Years</h4>
               <p>Industry Experience</p>
             </div>
             <div className="stat">

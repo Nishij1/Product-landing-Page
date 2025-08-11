@@ -73,7 +73,7 @@ For immediate assistance, you can also reach us at:
 
 Best regards,
 Wonders Solution Team
-"Say Goodbye to Harsh Water"
+
 ```
 
 3. Copy this **Template ID** as well

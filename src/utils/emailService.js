@@ -94,7 +94,7 @@ export const sendAutoReply = async (formData) => {
 
         Best regards,
         Wonders Solution Team
-        "Say Goodbye to Harsh Water"
+      
       `,
       reply_to: 'wonderssolution11@gmail.com'
     }
