@@ -127,26 +127,7 @@ const WhyChooseUs = () => {
           </div>
         </div>
 
-        <div className="trust-indicators">
-          <div className="trust-stats">
-            <div className="stat">
-              <h4>10,000+</h4>
-              <p>Happy Customers</p>
-            </div>
-            <div className="stat">
-              <h4>50+</h4>
-              <p>Cities Served</p>
-            </div>
-            <div className="stat">
-              <h4>3 Years</h4>
-              <p>Industry Experience</p>
-            </div>
-            <div className="stat">
-              <h4>24/7</h4>
-              <p>Customer Support</p>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   )
