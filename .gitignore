@@ -7,6 +7,11 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
+WhyChooseUs.jsx
+
+.css*
+.jsx
+
 node_modules
 dist
 dist-ssr
