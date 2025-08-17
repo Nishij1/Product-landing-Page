@@ -11,6 +11,7 @@ import { Analytics } from "@vercel/analytics/react"
 import CompanyInfo from './components/CompanyInfo'
 import Footer from './components/Footer'
 
+
 function App() {
   return (
     <div className="App">
@@ -22,7 +23,9 @@ function App() {
       <WhyChooseUs />
       <CompanyInfo />
       <Footer />
+      <Analytics />
     </div>
+     
   )
 }
 
