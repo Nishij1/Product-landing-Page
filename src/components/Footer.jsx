@@ -137,18 +137,6 @@ const Footer = () => {
             <div className="copyright">
               <p>&copy; {currentYear} Wonders Solution. All rights reserved.</p>
             </div>
-            <div className="footer-links">
-              <a href="#privacy">Privacy Policy</a>
-              <a href="#terms">Terms of Service</a>
-              <a href="#warranty">Warranty Policy</a>
-              <a href="#sitemap">Sitemap</a>
-            </div>
-          </div>
-          <div className="footer-disclaimer">
-            <p>
-              <strong>Disclaimer:</strong> Results may vary based on water quality and usage patterns. 
-              All prices are subject to change without notice. Installation charges may apply in remote areas.
-            </p>
           </div>
         </div>
       </div>
