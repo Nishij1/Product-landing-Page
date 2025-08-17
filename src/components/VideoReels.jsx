@@ -2,6 +2,10 @@ import { useState, useRef, useEffect } from 'react'
 import { motion } from 'framer-motion'
 import { Play, Pause, Volume2, VolumeX } from 'lucide-react'
 import videoWS from '../assets/videoWS.mp4'
+import p1 from '../assets/G1.png'
+import p2 from '../assets/G2.png'
+import p3 from '../assets/G3.png'
+import p4 from '../assets/G4.jpg'
 
 const VideoReels = () => {
   const [isPlaying, setIsPlaying] = useState(false)
@@ -26,32 +30,30 @@ const VideoReels = () => {
     {
       id: 1,
       type: 'image',
-      src: 'src/assets/G1.png',
+      src: p1,
       title: 'Five Key Benefits',
       description: 'Protects hair and appliances'
     },
     {
       id: 2,
       type: 'image',
-      src: 'src/assets/G2.png',
+      src: p2,
       title: 'Why Choose Soft Water',
       description: 'Better skin and hair'
     },
     {
       id: 3,
       type: 'image',
-      src: 'src/assets/G3.png',
+      src: p3,
       title: 'Safe Water Softeners',
       description: 'Purity without compromise'
-      
     },
     {
       id: 4,
       type: 'image',
-      src: 'src/assets/G4.jpg',
+      src: p4,
       title: 'Quick Easy Installation',
       description: 'Ready in 3 minutes'
-      
     }
   ]
 
