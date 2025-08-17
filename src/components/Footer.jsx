@@ -1,6 +1,6 @@
 import React from 'react'
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram, Twitter, Youtube, MessageCircle } from 'lucide-react'
-import logo from '../assets/logo.svg'
+import logo from '/logo.jpg'
 import { handleEmergencySupport, DISPLAY_WHATSAPP_NUMBER } from '../utils/whatsapp'
 
 const Footer = () => {

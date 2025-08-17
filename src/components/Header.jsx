@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import { Menu, X, MessageCircle, Droplets, Home, Package, Star, Gift, Users } from 'lucide-react'
-import logo from '../assets/logo.jpg'
+import logo from '/logo.jpg'
 import { handleGeneralInquiry, DISPLAY_WHATSAPP_NUMBER } from '../utils/whatsapp'
 import { IntegratedTubelightNav } from './ui/IntegratedTubelightNav'
 
