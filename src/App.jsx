@@ -6,7 +6,7 @@ import VideoReels from './components/VideoReels'
 import ProductShowcase from './components/ProductShowcase'
 import Testimonials from './components/Testimonials'
 import WhyChooseUs from './components/WhyChooseUs'
-import { Analytics } from "@vercel/analytics/next"
+import { Analytics } from "@vercel/analytics/react"
 
 import CompanyInfo from './components/CompanyInfo'
 import Footer from './components/Footer'
